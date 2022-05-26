@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#hola{
+    margin: 10px;
+}
+
+body {
+    background: lightblue;
+}
+#textPersonal{
+    text-align: auto;
+    margin: 10px;
+    padding-left: 150px;
+    padding-top: 200px;
+}
+#container{
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+img {
+    float: left;
+    height: 100px;
+    width: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    display: block;
+}
+header{
+    float: center;
+    background: lightskyblue;
+    height: auto ;
+    width: auto;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 1px solid black;
+}
+.clearfix{
+    clear: both;
+}
+#content{
+    float: right ;
+    width: calc(80%);
+    min-height: 520px;
+    border-left: 1px;
+    padding: 10 px;
+    background: lightgoldenrodyellow;
+}
+.enlace {
+    color: rgb(41, 49, 168);
+}
+.enlace:link{
+    color: rgb(13, 42, 47);
+}
+.enlace:visited{
+    color: rgb(106, 218, 15);
+}
+.enlace:active{
+    color: rgb(11, 216, 223);
+}
+.enlace:hover{
+    font-size: 1.1em;
+}
+.sombra1 {
+    text-shadow: 3px 3px 3px rgb(55, 55, 122);
+    opacity: 0.5;
+}
+
+.sombra2 {
+    text-shadow: 4px 4px 4px rgb(117, 70, 133);
+}
+
+.sombra3 {
+    text-shadow: 2.5px 2.5px 2.5px rgb(255, 235, 83);
+    opacity: 0.7;
+}
+#pokemon{
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 250px;
+
+}
+#perro{
+    position: absolute;
+    margin-left: 300px;
+}
+#info{
+    position: absolute;
+    margin-left:  25px;
+    margin-top: 90px;
+    font-size: medium;
+}
+#lista{
+    margin-bottom: 10px;
+}
+.a{
+    margin-bottom: auto;
+}
+aside {
+    float: left;
+    width: calc(20% - 22px);
+    padding: 10px;
+    border-right: 1px solid black;
+    min-height: 500px;
+    background: salmon;
+}
+footer{
+    background: black;
+    color:azure;
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 10px;
+}

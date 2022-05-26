@@ -1,0 +1,165 @@
+* {
+	font-family: 'Sen', sans-serif;
+	font-weight: 100;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+
+.content{
+	display: flex;
+	flex-flow: wrap;
+	text-align: center;
+}
+
+body {
+	background: #1B4332;
+}
+
+/*HEADER*/
+.header {
+	display: flex;
+	width: auto;
+	background: #95D5B2;
+	height: 80px;
+	align-items: center;
+	border-radius: 0 0 10px 10px;
+	margin: 0 10px 0 10px;
+}
+
+.logo{
+	width: 4em;
+	margin-left: 120px;
+}
+
+.texto{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 42%;
+}
+
+/*ENDHEADER */
+
+/*APIS*/
+
+.aside {
+	flex: 1;
+	background: #52B788;
+	height: 80vh;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+
+.btn {
+	display: flex;
+	margin: auto;
+	margin-top: 14vh;
+	flex-direction: column;
+	background-color: #B7E4C7;
+	padding: 20px 60px;
+	font-size: 18px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	color: white;
+	background-color: #1B4332;
+	font-size: 18px;
+}
+
+/*END APIS*/
+
+
+
+
+/*PRINCIPAL*/
+
+.main {
+	flex: 4;
+	background: #B7E4C7;
+	height: 80vh;
+	border-radius: 10px;
+	margin: 10px;
+	align-items: center;
+	text-align: center;
+}
+
+.main p{
+	margin-left: 25%;
+	margin-top: 15%;
+	width: 50%;
+	color: black;
+	font-size: 18px;
+	text-align: justify;
+	
+
+}
+
+#frases {
+	width: 50%;
+	color: black;
+	margin-left: 25%;
+	margin-top: 6%;	
+}
+
+#frases p {
+	width: 100%;
+	font-size: 20px;
+	margin-left: 0px;
+	margin-top: 6%;
+	font-family: courier !important;
+}
+
+#f1 {
+	text-shadow: 4px 4px 6px red;
+}
+
+#f2 {
+	text-shadow: 4px 4px 6px blue;
+}
+
+#f3 {
+	text-shadow: 4px 4px 6px green;
+}
+
+
+
+#btc {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 50%;
+	margin-top: 20%;
+	margin-left: 25%;
+	color: black;
+	font-size: 18px;
+	border-radius: 6px;
+	text-align: center;
+	box-shadow: 0 0 10px 0 black;
+	border-radius: 8px;
+}
+
+#dolar {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 50%;
+	margin-top: 15%;
+	margin-left: 25%;
+	color: black;
+	font-size: 18px;
+	border-radius: 6px;
+	text-align: center;
+	box-shadow: 0 0 10px 0 black;
+	border-radius: 8px;
+}
+
+.footer {
+	background: #95D5B2;
+	height: 93px;
+	border-radius: 10px 10px 0 0;
+	margin: 0 10px 0 10px;
+	text-align: center;
+	font-size: 18px;
+	padding: 2em;
+}

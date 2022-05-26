@@ -1,0 +1,94 @@
+header{
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0em;
+  margin: auto;
+  align-items: center;
+  width: auto;
+  background: red;
+  height: 89px;
+}
+
+.left{
+    float: left;
+    background: black;
+    height: 600px;
+    width: 380px;
+}
+.botton{
+    font-family: cursive;
+    width: 250px;
+    display: block;
+    margin: 57px;
+    margin-top: 3vh;
+    padding: 20px 60px;
+    background: #58D3F7;
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+    border-radius: 6px;
+    border: 2px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 7px 0 #BDBDBD;
+    cursor: pointer;
+    text-align: center;
+}
+
+.boton:hover{
+    color: white;
+    background: red;
+    font-size: 18px;
+}
+nav{
+  float: right;
+  background: white;
+  height: 580px;
+  width: 1950px;
+  margin-top: 0;
+  color: red;
+}
+.principal{
+  color: black;
+  background: white;
+  height: 600px;
+  width: auto;
+  }
+footer{
+color: white;
+text-align: right;
+background: red;
+font-weight: 600;
+margin-top: auto;
+width:auto;
+height:23px;
+padding: 10px;
+}
+h1{
+  text-align: left;
+  padding: 10px;
+  }
+*{
+  margin: 0;
+  padding: 0;
+}
+#frase{
+  color: black;
+  text-align: left;
+  font-weight: 950;
+  font-size: 30px;
+  margin-top: 13vh;
+  color: red;
+}
+#bit,#ethe{
+  font-family: serif;
+  padding: 15px;
+  color: red;
+  font-size: 55px;
+  }
+#nombre{
+  margin-left: 50px;
+}

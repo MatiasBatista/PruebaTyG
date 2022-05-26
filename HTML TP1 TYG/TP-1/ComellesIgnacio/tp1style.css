@@ -1,0 +1,117 @@
+html, body, footer{
+  margin: 0; 
+  padding: 0;
+}
+
+*{
+	font-family: Verdana;
+}
+
+#rtaAPI{
+	display:none;
+  	zoom: 0.7;
+  	text-align: center;
+  	background-color: #f66fa6;
+  	border: 5px solid #944fb9;
+  	padding: 10px;
+  	margin-right:200px;
+  	margin-left: 200px;
+  	position: relative;
+  	z-index: 1;
+}
+
+#expectativas{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 22%;
+	margin-right:200px;
+  	margin-left: 200px;
+}
+
+#rtaAPI p{
+	font-size: 20px;
+}
+header {
+	background-color: grey;
+	height: 12%;
+	
+	
+}
+#titulo{
+	text-align: center;
+	font-size: 30px;
+	border-top: 50px;
+	color: white;
+}
+h2 {
+  margin: 0px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+h1{
+	text-align: center; 
+  	padding-top:30px;
+  
+}
+
+.sidenav {
+  height: 85%; 
+  width: 13%; 
+  position: relative; 
+  z-index: 1; 
+  top: 0%; 
+  left: 0;
+  background-color:#694fa8;
+  overflow-x: hidden; 
+  padding-top: 20px;
+  display: table-cell;
+  text-align: justify;
+
+}
+.tom{
+	position: absolute;
+	right: 0px;
+	bottom: 0%;
+	zoom: 0.9;
+
+}
+
+.main {
+	width: 90%;
+	display: table-cell;
+	background-color: #34205d;
+
+}
+.sidebtn {
+	padding: 6px 8px 6px 16px;
+ 	text-decoration: none;
+ 	font-size: 25px;
+  	color: black;
+  	display: block;
+  	text-align: center;
+}
+
+.outer-container {
+	display: table;
+	height: 88%;
+}
+
+footer {
+	text-align: right;
+	border-top: solid black;
+	height: 7%;
+	
+}
+
+.textfooter{
+	padding-top: 5px;
+}

@@ -1,0 +1,197 @@
+body
+{
+	background-color: #fcfcfc;
+	font-family: arial,helvetica,sans-serif;
+}
+
+.header_principal
+{
+	background-color: #b3dee5;
+	color: #31525b;
+	font-family: arial,helvetica,sans-serif;
+	border-radius: 1.5em;
+	margin-bottom: 0.5em;
+	display: flex;
+	overflow: hidden;
+}
+
+.header_principal img
+{
+	width: 100px;
+	height: 100px;
+	flex: 1 1;
+}
+
+.header_principal h1
+{
+	flex: 20 1 auto;
+	text-align: center;
+}
+
+.box
+{
+	display: flex;
+}
+
+.box1
+{
+	flex: 0 0 auto;
+	margin-right: 0.5em;
+}
+
+.box2
+{
+	flex: 10 1 auto;
+}
+
+nav
+{
+	background-color: #3e6874;
+	height: 300px;
+	border-radius: 1.5em;
+	overflow: hidden;
+}
+
+nav ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	display: block;
+	text-align: center;
+	color: #f6d26f;
+	padding: 10px 20px;
+}
+
+nav ul li:hover
+{
+	background-color: #fae6b1;
+	color: #31525b;
+}
+
+nav ul li img
+{
+	width: 1em;
+	height: 1em;
+	margin-right: 0.3em;
+}
+
+main
+{
+	background-color: #fae6b1;
+	color: #404040;
+	border-radius: 1.5em;
+	overflow: hidden;
+	padding: 1em;
+}
+
+#principal_contenido
+{
+	#display: flex;
+}
+
+q
+{
+	width: 80%;
+	font-size: 2em;
+	margin: 0 auto;
+}
+
+blockquote
+{
+	width: 80%;
+	font-size: 1.4em;
+	margin: 0 auto;
+}
+
+span.frase1
+{
+	text-shadow: 0.2em 0.2em 0.15em #ff3300;
+}
+
+span.frase2
+{
+	text-shadow: 0.2em -0.2em 0.15em #3333cc;
+}
+
+span.frase3
+{
+	text-shadow: -0.2em 0.2em 0.2em #336600;
+}
+
+span.frase4
+{
+	font-size: 3em;
+	text-shadow: 0.3em 0.3em 0.2em #FF0000;
+}
+
+span.autor
+{
+	font-size: 1.5em;
+}
+
+span.expectativa
+{
+	font-size: 1.2em;
+}
+
+.tabla_qr
+{
+	margin: 5em;
+}
+
+.tabla_qr td
+{
+	align: center;
+}
+
+#texto_qr
+{
+	width: 20em;
+	height: 4em;
+}
+
+#boton_qr
+{
+	width: 20em;
+	height: 4em;
+}
+
+.footer_principal
+{
+	background-color: #243c42;
+	color: #fae6b1;
+	border-radius: 1.5em;
+	overflow: hidden;
+	margin-top: 0.5em;
+}
+
+.footer_principal h3
+{
+	text-align: right;
+	padding: 0.5em;
+}
+
+.header_articulo
+{
+	color: #31525b;
+	font-family: arial,helvetica,sans-serif;
+	margin-bottom: 0.5em;
+	overflow: hidden;
+}
+
+.footer_articulo
+{
+	color: #f5e5d6;
+	overflow: hidden;
+	margin-top: 0.5em;
+}
+
+#entrada_texto
+{
+	font-style: italic;
+}

@@ -1,0 +1,229 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(39, 39, 51);
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*HEADER*/
+
+header {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 0;
+  background: rgb(49, 149, 136);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 149, 136, 0.7259278711484594) 7%,
+    rgba(1, 1, 27, 1) 40%,
+    rgba(1, 10, 11, 1) 100%
+  );
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title h1 {
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  margin: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-flag {
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor-imagen {
+  margin-left: 16px;
+  width: 100px;
+  min-width: 100px;
+}
+
+/*---CONTENIDO GENERAL PAGINA---*/
+
+#titulo-apis {
+  font-size: 30px;
+  color: white;
+}
+
+.panel {
+  background-color: rgb(39, 39, 51);
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  width: 25%;
+  height: 60%;
+}
+
+.contenido-ppal {
+  position: absolute;
+  right: 0;
+  width: 75%;
+  height: 70%;
+  background-color: #071827;
+  display: block;
+}
+
+.api {
+  background-color: rgb(73, 29, 230);
+  width: 100%;
+  height: 60%;
+  right: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-api {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  height: 90%;
+  width: 90%;
+}
+
+.respuesta {
+  background: transparent;
+  color: rgb(31, 149, 228);
+  margin: 16px;
+  position: relative;
+  font-size: 20px;
+  height: 30px;
+}
+
+#rtaAPI1 {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  justify-content: center;
+}
+
+#rtaAPI1 p {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin: 1%;
+}
+
+#rtaAPI1 img {
+  position: absolute;
+  width: auto;
+  height: 50%;
+  bottom: 5px;
+}
+
+.expectativa {
+  bottom: 5px;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.expectativa p {
+  margin: 16px;
+  position: relative;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 179),
+    0 0 0.2em rgb(255, 0, 149);
+  color: white;
+  width: 70%;
+}
+
+.image-float {
+  position: absolute;
+  right: 10px;
+  bottom: 60px;
+  height: 100px;
+  display: block;
+}
+
+.image-float:hover {
+  right: 15px;
+  transition: all 0.4s ease;
+}
+
+/*---BUTTON---*/
+
+.button-conteiner {
+  align-items: center;
+  display: grid;
+}
+
+.button {
+  background-color: #1ba7ca;
+  border: none;
+  padding: 15px 32px;
+  margin: 10px;
+  border-radius: 16px;
+}
+
+.button:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(255, 255, 255);
+  transition: all 0.2s ease;
+}
+
+.button a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.button a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* ---BUTTON-RELOAD--- */
+
+.button1 {
+  background-color: #2a1369;
+  border: none;
+  padding: 15px 32px;
+  margin: 10px;
+  border-radius: 16px;
+}
+
+.button1:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(90, 12, 192);
+  transition: all 0.2s ease;
+}
+
+.button1 a {
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(224, 213, 213);
+}
+
+/*---FOOTER---*/
+
+footer {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+.text-footer {
+  color: white;
+  position: absolute;
+  right: 10px;
+}

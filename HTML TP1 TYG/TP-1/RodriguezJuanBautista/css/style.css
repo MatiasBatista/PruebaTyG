@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, Serif;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #f0f0f0;
+}
+
+header {
+  align-self: flex-start;
+  background: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #d70a0a;
+  text-shadow: 2px 2px 2px black;
+  height: 100px;
+  width: 100%
+}
+
+footer {
+  font: Georgia, Serif;
+  align-self: flex-end;
+  background: black;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  text-align: right;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  height: calc(100vh - 270px);
+  background: #d70a0a;
+  padding: 20px;
+}
+
+section {
+  width: 100%;
+  background-image: url("src/background.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+.main-text {
+  text-align: center;
+  background-color: rgba(255,10,10,0.3);
+  border-radius: 10px;
+  color: white;
+  font: Georgia, Serif;
+  font-size: 20px;
+  line-height: 1.5em;
+  text-shadow: 1px 1px 1px black;
+}
+
+#frase1 {
+  color: #FFF;
+  margin: 0 auto;
+  font-weight: 700;
+  font: italic bold 30px Georgia, Serif;
+  text-shadow: -4px 3px 0 #e41213;
+}
+
+#frase2 {
+  color: #FFF;
+  margin: 0 auto;
+  font-weight: 700;
+  font: italic bold 30px Georgia, Serif;
+  text-shadow: -4px 3px 0 #e41213;
+  text-shadow: 3px 3px 0 black, 6px 6px 8px red;
+}
+
+#frase3 {
+  color: #FFF;
+  margin: 0 auto;
+  font-weight: 700;
+  font: italic bold 30px Georgia, Serif;
+  text-shadow: 0 0 20px #e41213;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  border-radius: 15px;
+  border: solid 10px red;
+  box-shadow: 5px 5px 15px 5px black;
+}
+
+.button {
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  border: 2px solid black; 
+  padding: 30px; 
+  background-color: white; 
+  border-radius: 15px; 
+  box-shadow: 5px 5px 15px 5px black;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  text-align: center;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  border: 2px solid black; 
+  padding: 30px; 
+  background-color: #FF6C6C; 
+  border-radius: 15px; 
+  box-shadow: 5px 5px 15px 5px black;
+  letter-spacing: 1px;
+}
+
+.button-text {
+  padding: 10px; 
+  color: black; 
+  text-decoration: none;  
+  font: bold 20px Georgia, Serif; 
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ /> <!--Para no tener problemas con las ñ,tildes,etc-->
+    
+    <link rel="icon" href="img/favicon.ico"> <!--icono de la pagina-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!-- importo googlefonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"> 
+   
+    <link href="css/estilo.css" rel="stylesheet" /> <!--enlazo con css-->
+
+    <script type="text/javascript" src="js/script.js"></script> <!-- enlazar con js-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>TP Nro 1 - Maceiras, Rodrigo</title> <!--titulo-->
+</head>
+
+<html>
+<body>
+    <div>  <!--contendra toda la estructura de la pagina-->
+        <header>    <!--cabecera de la pagina-->
+                <a href="index.html"><img id="portada" src="img/icono.png"></a> <!--logo-->
+                <h1>TP Nro 1 - Maceiras, Rodrigo Martín</h1>
+        </header>
+        <section>   <!--contenedor del contenido medio de la pagina-->
+            <nav>   <!--menu lateral-->
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>  
+                        <li><span onclick="cambiadisplaydos('dos');">Listado de juegos</span></li>  
+                        <li><span onclick="cambiadisplaytres('tres');">Info para compra digital</span></li>  
+                    </ul>   
+                    
+            </nav>
+            <article> 
+                 
+                <!--Listado de juegos-->
+                <div id="dos" style="display:none">
+                    <h3>Listado de juegos de Pc</h3>
+                    <script language=javascript>getJuegos()</script>
+                    <div id="listadoJuegos"></div>
+                </div> 
+
+                <!--Info para comprar digital--> 
+                <div id="tres" style="display:none">
+                    <h3>¿Deseas comprar un juego desde argentina? $1 USD equivale a:</h3>
+                    <script language=javascript>getDolar()</script>
+                    <div id="precioDolar"></div>
+                    <h3>Recuerda:</h3>
+                    <p>Deberas pagar el precio visible en la página más los siguientes impuestos:</p>
+                    <em>
+                    <ul><b>IVA servicios digitales internacionales:</b></ul>
+                    <ul>Por el Decreto 354/2018, se te cobra un 21% de impuesto</ul>
+                    <ul><b>Ley Impuesto PAIS:</b></ul>
+                    <ul>30% si no está en el <u><a href="http://biblioteca.afip.gob.ar/pdfp/RG_4240_AFIP_A2.pdf" target="_blank">listado</a></u></ul>
+                    <ul>Si está en el APARTADO A, pagarás un 8% que se suma al IVA (en caso que corresponda).</ul>
+                    <ul>Si está en el APARTADO B y la operación es menor a U$S 10, te cobraremos un 8% que se suma al IVA (en caso que corresponda).</ul>
+                    <ul>Si está en el APARTADO B y la operación es mayor a U$S 10, te cobraremos un 30%.</ul>
+                    </em>
+                </div>
+                
+                <!--Frases aleatorias-->
+                <div id="uno">
+                    <div id="frases">  
+                        <h3>Sabías que...</h3>
+                        <script language=javascript>texto_aleatorio()</script>
+                    </div>
+                </div> 
+
+                <!--Espectativas del alumno-->
+                <div id=espectativas> 
+                    <p>"Mis espectactivas como alumno de la materia Tecnología y Gestión Web de UTN FRLP es poder aprender sobre las herramientas de desarrollo web con el fin de aproximarme un poco más al mundo laboral".</p>
+                    <img id="fotospec" src="img/espectactivas.png">   
+                    <img id="fotospec" src="img/controldejuego.png">  
+                </div>
+                
+            </article>
+                
+        </section>
+        <footer>    <!--pie de la pagina-->
+                <p>TygWeb 2021</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

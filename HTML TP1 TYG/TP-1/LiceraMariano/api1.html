@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>API 1</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Página para trabajo práctico individual de Tecnología y Gestión web">
+	<meta name="author" content="Mariano Licera">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="css/utn-icon.png">
+</head>
+<body>
+	<div id="menu">
+		<header>
+			<nav>
+				<p class="texto">TP Nro 1-Licera, Mariano</p>
+			</nav>
+		</header>
+	</div>
+	<div id="apibar">
+		<ul>
+			<li>
+				<a class="nav-logo" href="index.html"><img class="nav-logo" src="css/logo-utn.png" alt=""/></a>
+			</li>
+			<li><a href="api1.html">Link API 1</a></li>
+			<li><a href="api2.html">Link API 2</a></li>
+		</ul>
+	</div>
+    <div id="bitcoin">
+        <h1>Bitcoint Price</h1>
+        <ul>
+            <li v-for="currency in currencies">
+                {{ currency.description }}
+                <span v-html="currency.symbol"></span> {{ getPrice(currency) }}
+            </li>
+        </ul>
+    </div>
+    <footer>
+		<div id="container-footer">
+			<p class="footer-text">Tyg Web 2020</p>
+		</div>
+	</footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+	<script src="apis/api1.js"></script>
+</body>
+</html>

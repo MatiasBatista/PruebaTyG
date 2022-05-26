@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<title>TP Nro 1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="**"> 
+
+    <!-- Carga del CSS de "Bootstrap" -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    
+    <!-- Carga del CSS personalizado     -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        #map {
+	height: 500px;
+	width: 100%;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    
+    <!-- Sección #Cabecera -->
+
+      <section id="detalles-cabecera" class="bg-primary text-white py-3 py-lg-1 text-center">
+        <div class="container">
+            <div class="row justify-content-sm-between align-items-sm-center my-2">
+                <div class="col-12 col-sm-auto">
+                     <a href="#" class="logo ">
+                        <img src="images/logo.png" alt="Logo del sitio"  width="200"  class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-12 col-sm-auto">
+                    <div class="col-auto ml-md-auto">
+                    <span class="text-secondary h1 ml-2 text-center"> TP Nro 2 - Grupo 9</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección #barra lateral y pagina de inicio -->
+ 
+    <section id="cuerpo" >
+        <div class="container">
+            <div class="row">
+                <div class="orientacion d-flex py-4 col-4 borde align-items-center" style="font-size: 3rem">
+                <button   type="button" class="btn btn-outline-primary py-2 border rounded btn-lg my-1" id="quienSoy">¿Quien soy? </button>
+                <button  type="button" class="btn btn-outline-primary border rounded btn-lg mt-4" id="yaTeLei" >Ya te lei</button>
+                <button  onclick="getVideo();" type="button" class="btn btn-outline-primary border rounded btn-lg my-1 mt-4" id="quienSoy"> Ultimo video Aula Ideal </button>
+                <button onclick="horoscopo();" type="button" class="btn btn-outline-primary border rounded btn-lg mt-4" id="yaTeLei" > Localizacion </button>
+                </div>
+                <div class="col-8 text-center py-4" style="font-family: Arial, Helvetica, sans-serif; font-size: 1.5rem;">
+                    <div  id= "fraseRandom" class="display-1">
+
+                    </div>
+                    <h1 class="pt-4 pb-3" >Expectativas</h1>
+                    <p>En este curso me gustario porder desarrollar mas a pleno mis conocimientos sobre la web. Ya sea desde la historia, protocolos hasta herramientas para posibles soluciones de problemas. <br>
+                        Ademas, me gustaria poder aplicar los conocimientos que vaya aprendiendo a lo largo de la cursada en la cursada de diseño de sistemas. Este año para el trabajo de campo es muy posible que la solucion 
+                        la trabajemos sobre la web. <br><br><br>
+                    </p>
+                    <div id="padreApi">
+                        
+                    
+                        <div id="api1" class="py-1">
+
+                        </div>
+                       <div id="verVideo" class="mt-4">
+
+                        </div> 
+                        <div id='contenedorMapa'> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+ <!-- Seccion pie de pagina-->
+
+    <footer id="pie-de-pagina" class="bg-dark  text-light text-truncate">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class=" col-12 col-md-6 col-xl-5 py-2">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-white font-weight-bold h1">Tec y Gestion Web</h2>
+                        </div>
+                        <div class="col-auto text-black">
+                            <h3>Trabajo hecho el: 11/05/2021</h3>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-7 py-2 text-center text-md-right small">
+                    <ul class="enlaces-secundario list-unstyled d-inline-flex text-uppercase ">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Frase random</a></li>
+                        <li><a href="#">Expectativas</li>       
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+   
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script  type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+  
+     <!-- Archivo para configurar e iniciar las funciones de los scripts -->
+    <script type="text/javascript" src="js/miscript.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAt735Kv6_FLOAvWvRLz2ZGxgtQ1p9Sq8E&callback="></script>
+</body>
+</html>

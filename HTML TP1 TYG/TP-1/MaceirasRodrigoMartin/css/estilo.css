@@ -1,0 +1,168 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/6b/64/49/6b644965d36a159c1551c5a94001389a.png");
+    background-color: rgb(72, 33, 110);
+    margin: 0 auto;
+    color: ghostwhite;
+    font-family: 'Amatic SC', cursive; /*https://fonts.google.com/specimen/Amatic+SC?category=Handwriting#standard-styles*/
+    font-size: 20px;
+    
+}
+
+header{
+    background-color: rgb(72, 33, 110);
+    border-radius: 1%;
+    border: 1px solid rebeccapurple;
+    height: 150px;
+    opacity: 0.96;
+}
+
+#portada{
+    width: 100px;
+    height: 100px;
+    padding-top: 22px;
+    padding-left: 22px;
+    float: left;
+}
+
+section{
+    height: 850px;
+    padding-top: 10px;
+    opacity: 0.96;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 5px;
+}
+
+nav{
+    float: left;
+    width: 24%;
+    height: 98%;
+    margin-left: 5px;
+    border: 1px solid rebeccapurple;
+    border-radius: 2%;
+    background-color: rgb(72, 33, 110);
+}
+
+a{
+    color: ghostwhite;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+li{
+    background-color: rgb(72, 33, 110);
+    list-style-type: square;
+}
+li:hover,li:active{
+    background-color: rgb(83, 41, 124);
+    color: rgb(83, 41, 124) ;
+}
+
+article{
+    width: 73%;
+    float: left;
+    margin-left: 5px;
+    height: 98%;
+    border: 1px solid rgb(72, 33, 110);
+    border-radius: 1%;
+    background-color: rgb(72, 33, 110);
+}
+
+#espectativas{
+    border-top: 0.5px solid rgb(72, 33, 110);
+    border-bottom: 0.5px solid rgb(72, 33, 110);
+    text-align: center;
+    font-size: 30px;
+    height: 245px;
+    padding-top: 1%;
+    overflow: auto;
+       
+}
+
+#frases{
+    border-top: 0.5px solid rgb(72, 33, 110);
+    border-bottom: 0.5px solid rgb(83, 41, 124);
+    border-radius: 1%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 200px;
+    padding-top: 5px;
+    overflow: auto;
+}
+
+footer{
+    background-color:rgb(39, 39, 39);
+    border: 1px solid black;
+    text-align: right;
+    padding-top: 3%;
+    padding-right: 5%;
+    height: 100px;
+    opacity: 0.98;
+    
+}
+
+#f1{ /*frases sombreados*/
+    text-shadow: rgb(13, 1, 56) 10px 10px 5px , -10px -10px 5px rgb(13, 1, 56);;
+
+}
+#f2{
+    text-shadow: rgb(13, 1, 56) 10px 10px 5px;
+
+}
+#f3{
+    text-shadow: 1px -5px 1px rgb(13, 1, 56);
+
+}
+
+
+span {  
+    cursor:pointer;  
+    font-size: 30px;
+    color: ghostwhite;
+
+} 
+
+#dos{
+    border-top: 0.5px solid rgb(72, 33, 110);
+    border-bottom: 0.5px solid rgb(83, 41, 124);
+    border-radius: 1%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    overflow: auto;
+    height: 289px;
+    
+}
+
+#tres{
+    border-top: 0.5px solid rgb(72, 33, 110);
+    border-bottom: 0.5px solid rgb(83, 41, 124);
+    border-radius: 1%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    overflow: auto;
+    height: 289px;
+    
+}
+#fotospec{
+    height: 102px;
+    width: 102px;
+    margin-top: auto 0px;
+    float: left;
+    padding-left: 25%;
+}
+
+#precioDolar{
+    text-shadow: rgb(13, 1, 56) 10px 10px 5px;
+
+}

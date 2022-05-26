@@ -1,0 +1,104 @@
+html,
+body,
+footer {
+  margin: 0;
+  padding: 0;
+}
+/* Estilos del Header y sus componentes */
+header {
+  background-color: lightblue;
+  height: 50px;
+}
+
+.imgheader {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+h2 {
+  margin: 0px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* Estilos de los contenidos exterior e interior */
+.container {
+  background-color: lightgray;
+  display: table;
+  min-height: calc(100vh - 55px - 20px);
+}
+
+.inner-container {
+  padding: 0 25px 0 25px;
+  text-align: justify;
+  width: 90%;
+  display: table-cell;
+}
+
+/* Estilos de la Barra Lateral */
+.aside-container {
+  height: 85%;
+  width: 10%;
+  position: relative;
+  z-index: 1;
+  top: 0%;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: table-cell;
+  text-align: left;
+}
+
+.aside-container a {
+  padding: 6px 8px 6px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  text-align: center;
+}
+
+.aside-container a:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: black;
+  color: white;
+  clear: both;
+  text-align: right;
+  padding: 5px;
+}
+
+/* Estilos de texto aleatorio */
+#random-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.expectations p {
+  text-align: center;
+  font-family: "Itim", cursive;
+  font-size: 30px;
+}
+
+.clima {
+  text-align: center;
+  align-items: center;
+}
+.temp {
+  display: inline-block;
+  font-size: 50px;
+  margin: 0px;
+}
+
+/* Centra la imagen del perro */
+.imgAPI {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}

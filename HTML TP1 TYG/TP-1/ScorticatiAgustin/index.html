@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icono de página y nombre -->
+    <link rel="icon" href="./images/favicon.png" type="image/png" />
+    <title>ScorticatiAgustin</title>
+    <!-- Agrega el script de CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <!-- Agrega JQuery y script de javascript-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="code.js"></script>
+    <!-- Agrega fuentes de familias de google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- CABEZA DE PÁGINA -->
+    <header>
+      <img
+        src="./images/favicon.png"
+        width="30px"
+        height="30px"
+        class="imgheader"
+      />
+      <h2>TP 1 - Scorticati, Agustin</h2>
+    </header>
+
+    <!-- CONTENIDO -->
+    <div class="container">
+      <!-- BARRA LATERAL -->
+
+      <div class="aside-container">
+        <br />
+        <!-- Boton para acceder a la primera API -->
+        <a onclick="api1();">Clima en Quilmes</a>
+        <br />
+        <br />
+        <!-- Boton para acceder a la segunda API -->
+        <a onclick="api2();">Fotos de Perros</a>
+        <br />
+      </div>
+      <!-- CONTENIDO PRINCIPAL -->
+
+      <div class="inner-container">
+        <!-- FRASE ALEATORIA -->
+        <p id="random-text"></p>
+        <hr />
+        <!-- EXPECTATIVAS -->
+        <div class="expectations">
+          <h3 style="text-align: center; text-decoration: underline">
+            Mis expecativas para este curso
+          </h3>
+          <p>
+            Mis expectativas para este curso son poder adquirir los
+            conocimientos acerca de la web y su historia, además de poder
+            desarrollar las habilidades y herramientas necesarias para poder
+            llevar lo aprendido en la materia a la práctica del día a día.
+          </p>
+        </div>
+        <hr />
+        <div id="contenido-api"></div>
+      </div>
+    </div>
+    <!-- PIE DE PAGINA -->
+
+    <footer>TygWeb 2021</footer>
+  </body>
+</html>

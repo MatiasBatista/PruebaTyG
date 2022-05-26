@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Pagina Web de Lucas Martinez </title>
+        <link rel="stylesheet" href="estilos.css" />
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <img src="UTN_logo.jpg" /> 
+                <h1>TP N°1-Martinez, Lucas</h1>
+            </header>
+            <div class="clearfix"></div>
+            <section id="content">
+                <div id="hola">texto random</div>
+                <div id="textPersonal">
+                    <h2>
+                        Mis espectativas realmente no son
+                        muy grandes en cuanto a complejidad,
+                        pero si, ya aprender como se hacen las paginas web,
+                        es muchisimo para mi y me parecio super interesante
+                        y provechoso para mi hacer este tp. Aprendi muchisimo
+                    </h2>
+                </div>
+            </section>
+            <aside>
+                <h2 id="lista"><c> Lista de APIs </c></h2>
+                    <div>
+                        <button class="a" id="button">
+                            Tu pokemon de esta sesion es
+                        </button>
+                        <section id="pokemon">
+                            <img scr="" id="img" class="pokemon" alt="">
+                            <p id="info" class="text-white"></p>
+                        </section>  
+                    </div>
+                    <script>
+                        let buton=document.getElementById("button")
+                        buton.addEventListener('click',()=>{
+                            var numRandom=Math.floor(Math.random()*(898))
+                            let img=document.getElementById("img")
+                            let p=document.getElementById("info")
+                            let xhttp=new XMLHttpRequest()
+                            xhttp.open("GET",`https://pokeapi.co/api/v2/pokemon/${numRandom}`)
+                            xhttp.send()
+                            xhttp.onreadystatechange=function(){
+                                if(this.readyState==4 && this.status==200){
+                                    let datoPokemon=JSON.parse(this.responseText)
+                                    img.setAttribute("src",datoPokemon.sprites.front_default)
+                                    p.textContent=datoPokemon.name
+                                }
+                            }
+                        })
+                    </script>
+                    <div>
+                        <button class="a" id="button2">
+                            tu perro acompañante de esta sesion es:
+                        </button>
+                        <section id="perro">
+                            <img scr="" id="img2" class="perro" alt="">
+                        </section>
+                    </div>
+                    <script>
+                        var s=document.getElementById("button2")
+                        s.addEventListener('click',()=>{
+                            let img2=document.getElementById("img")
+                            let p=document.getElementById("info")
+                            let xhttp=new XMLHttpRequest()
+                            xhttp.open("GET",`https://dog.ceo/api/breeds/image/random`)
+                            xhttp.send()
+                            xhttp.onreadystatechange=function(){
+                                if(this.readyState==4 && this.status==200){
+                                    let datosPerro=JSON.parse(this.responseText)
+                                    img.setAttribute("src",datosPerro.message)
+                                    console.log(datosPerro.status)
+                                }
+                            }
+                        }
+                        )
+                    </script>
+            </aside>
+            <div class="clearfix"></div>
+            <footer>
+                <p>Tecnologia y Gestion Web-2021 </p>
+            </footer> 
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>   
+            <script src="scripts.js" type="text/javascript"></script> 
+            
+            //<script src="apis.js"></script>
+    </body>
+</html>

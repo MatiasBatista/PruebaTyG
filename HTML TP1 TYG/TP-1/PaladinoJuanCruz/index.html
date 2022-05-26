@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>TP1 Juan Cruz Paladino</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="Estilos.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+        <header>
+            <img alt="logo_UTN" title="Logo" class="logo" src="Logo-UTN.png">
+            <h1 id="titulo_cabecera">TP1 - Paladino Juan Cruz</h1>
+        </header>
+
+       <div class="conteiner-main">
+            <div class="barra-lateral">
+                <!-- Cambiar los nombres de los botones-->
+                <button id="botonInicio" class="boton" >Inicio</button>
+                <br><br>
+                <button id="botonApi-1" class="boton" onclick="getInfo();">Link API 1</button>
+                <br><br>
+                <button id="botonApi-2" class="boton">Link API 2</button>
+            </div>
+
+            <div class="contenedor">
+                <div id="Inicio" class="inicio">
+                    <p id="frase" class="fraseRandom">
+                        <!-- Acá va la frese aletoria, es colocada mediante js-->
+                    </p>
+                    <p class="expectativas">
+                        Mis expectativas para esta materia son poder dar los primeros pasos en el mundo del desarrollo web ya que es un tema
+                        que me viene llamando la atencion desde hace bastante. 
+                    </p>
+                </div>
+
+                <div id="Api1" class="api1">
+                    <!-- Api 1: Covid-19 -->  
+                </div>
+
+                <div id="Api2" class="api2">
+                    <!-- Api 2-->
+                   <div id="psudoForm">
+                        <label class="Etiqueta">Inserte nombre del pais que desea (Ej: Argentina)</label>
+                        <br>
+                        <input type="text" class="busqueda" id="Pais" placeholder="Nombre del Pais">
+                        <button id="bOK" class="busqueda">Buscar</button>
+                    </div>
+                    <div id="infoPaises">
+                        <!--Contenedor de info-->
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h3 id="texto_footer">TyGweb 2021</h3>
+        </footer>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+        <script src="Script.js"></script>
+    </body>
+
+</html>

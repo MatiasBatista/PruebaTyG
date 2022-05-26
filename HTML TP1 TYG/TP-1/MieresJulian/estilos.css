@@ -1,0 +1,260 @@
+#nombre {
+  font-size: 15px;
+  color: rgba(79,148,162,1);
+}
+
+#map {
+  height: 100%;
+}
+
+#utn{
+  width:100%;
+  float:left;
+}
+
+.texto-titulo{
+  display: inline-block;
+  text-align: center;
+  width:100%;
+}
+
+#main-frases{
+  display: flex;
+  align-items: center;
+  height:75%;
+  justify-content: center;
+  border-top-right-radius: 10px;  
+  background-color: #ffffff;  
+}
+
+#main-maps{
+  display: flex;
+  align-items: center;
+  height:75%;
+  justify-content: center;
+  border-top-right-radius: 10px;  
+  border-style: bold;  
+}
+
+#main-parrafo{  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e5ebef;
+  height:25%;
+  border-bottom-right-radius: 10px;
+  
+}
+
+#parrafo-titulo{
+  font-family: Arial, Helvetica, sans-serif;  
+  text-transform: uppercase;
+  color: #397799;
+  padding-top: 5px; 
+  padding-bottom: 10px;  
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 1vw;  
+}
+
+#parrafo-texto{  
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  width: 75%; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-size: 1vw;
+  padding-bottom: 10px;   
+} 
+
+head{
+  width:75%;
+  margin:auto;
+}
+
+section{
+  height:50%;
+  margin:auto;
+}
+
+body{
+  width:75%;
+  margin:auto;
+  height:75vh;
+  overflow: hidden;
+  position: relative;
+}
+
+header {
+  background-color:#242424;
+  padding:10px;  
+  height:fixed;  
+  border-radius:10px;
+  display:flex;
+  align-items: center;
+}
+
+nav {
+  background-color:#a8bdca;
+  font:15px arial,sans-serif;
+  font-size:15px;  
+  height:100%;
+  width:100px;
+  float:left;
+  text-decoration:bold;
+  appearance:button;
+  text-align:center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+footer {
+  background-color:#242424;
+  font-family:arial;
+  font-size: 10px;
+  height:fixed;
+  clear:left;
+  text-align:center;
+  padding:1px;
+  border-radius:10px;
+ }
+
+aside{
+  font:arial,sans-serif;
+	text-align:center;
+	height:100%; 	
+	border-radius:10px;
+  background-color: #FFFFFF;	
+}
+  
+html { 
+  height:100%;
+  background: rgb(39,69,122);
+  background: linear-gradient(90deg, rgba(39,69,122,1) 0%, rgba(30,85,142,1) 18%, rgba(79,148,162,1) 100%);
+}
+
+h1 {
+  font-family: arial;
+  color:white;
+  text-align: right;
+  padding-right:50px;
+}
+
+h2{
+  font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+  font-size: 20px;
+  color:white;
+  text-align: right;
+  padding-right:50px;
+}
+
+h3{
+  font-family: arial;
+  color:white;
+}
+
+#boton{
+  background-color:#397799;
+  border-radius:6px;
+  width:90%;
+  height:50px;
+}
+
+#espacio-boton{
+  height:5px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
+
+#boton:hover {
+  background: #55afe0;
+}
+
+
+button{
+  border-style:none;
+}
+
+#main-weather{
+  display: flex;
+  align-items: center;
+  height:75%;
+  justify-content: center;
+  border-top-right-radius: 10px;  
+  background-image: url('images/weather.jpg');
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+
+    padding-top: 60px;
+    height: 75%;
+    width: 25%;
+    align-items:center;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+    background: rgb(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.weather-icon img{
+  height: 8vw;
+  width: 8vw;
+}
+
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+.temperature-value span{
+    color: #FFFFFF;
+    font-size: 0.5em;
+}
+
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5vw;
+    text-transform: capitalize;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1vw;
+}

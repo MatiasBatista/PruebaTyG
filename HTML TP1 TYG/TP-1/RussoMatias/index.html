@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TP°1- Matias Russo</title>
+</head>
+<body>
+    <main>
+        <img src="smitty.png" width="65" height="65" alt="SmittyW.">
+        <h1 class="nombre">TP°1- Matias Russo</h1>
+        <hr>
+    </main>
+    <section class="main">
+        <nav class="menu_apis">
+          <p class="intromenu">Menu de Opciones:</p>
+          <button class="boton" onclick="Gohome();">Home</button>
+          <button class="boton" onclick="Getjoke();">Bromas</button>
+          <button class="boton" onclick="Imagenrandom();">Imagen</button>
+        </nav>
+
+        <article class="texto-apis">
+          <!--Para la app de bromas--> 
+          <div class="textoHome" id="home">
+              Mi expectativa con la materia, es aprender mas del mundo sobre el desarrollo WEB, ya que es algo que siempre me llamo la atencion desde que lo descubri. 
+              <br><br>
+              Con este trabajo, pude descubrir un poco de este mundo, lo que me entusiasmo.
+              <br><br>
+              <h2>
+                Frase generada aleatoriamente:  
+                <br><br>
+                <script src="fraserandom.js"></script>
+              </h2>
+          </div>
+          <div class="joke" id="joke"></div>
+          <div class="delivery" id="delivery"></div>
+          <!--Para la app de la foto-->
+          <div class="picture" id="foto"></div>
+          <script src="http://code.jquery.com/jquery-3.5.0.min.js"></script>
+          <script src="script.js"></script>
+        </article>
+
+    </section>
+    <hr>
+    <footer class="pie">TyGWeb - 2021</footer>
+</body>
+</html>
